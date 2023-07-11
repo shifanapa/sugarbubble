@@ -1,0 +1,252 @@
+@font-face{
+    font-family: bonny;
+    src: url(./font/Bonny-Variable.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 1rem 5rem;
+}
+.flex{
+    display: flex;
+}
+.j-center{
+    justify-content: center;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.font{
+    font-family: bonny;
+    color: #FF6B00;
+}
+.menu{
+    list-style: none;
+    text-decoration: none;
+    gap: 4rem;
+    position: relative;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.spot-h1{
+    font-family: bonny;
+    font-size: 5rem;
+}
+.spot-h3{
+    font-family: bonny;
+    font-size: 3rem;
+}
+.spot-h5{
+    margin-top: 10rem;
+
+}
+.order-n{
+    color: white;
+    background-color:#FF6B00 ;
+    border-radius: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.space{
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.first{
+    position: absolute;
+    height: 623px;
+    width: 568px;
+    left: 53%;
+    top: 129px;
+}
+.second{
+    position: absolute;
+    height: 492.125px;
+    width: 405.5px;
+    left: 1071px;
+    top: 175px;
+    border-radius: 80px;
+}
+.spotlight_text{
+    margin-top: 6rem;
+}
+.button-p{
+    padding-top: 1rem;
+    font-size: 25px;
+}
+ .item_h3{
+    text-align: center;
+    margin-top: 12%;
+ } 
+ .items_list{
+    list-style: none;
+    gap: 5rem;
+    justify-content: center;
+    margin-top: 2rem;
+ }  
+.items_list a{
+    text-decoration: none;
+    color: black;
+}
+.groove{
+    border-style: groove;
+    text-align: center;
+    height: 474px;
+    width: 284px;
+    padding-top: 25px;
+    font-size: 1.5rem;
+    border-color: black;
+    border-radius: 3%;
+    margin-top: 5rem;
+}
+.item_order{
+    background: orange;
+    border: 0;
+    color: white;
+    text-align: center;
+    padding: 3% 32%;
+    border-radius: 1rem;
+    margin-top: 3%;
+}
+.items_img{
+    justify-content: center;
+    gap: 2rem;
+}
+.sugar{
+    max-width: 500px;
+    margin-left: 35%;
+    margin-top: 1%;
+}
+.review{
+    background-color: antiquewhite;
+    text-align: center;
+    margin-top: 10rem;
+    padding-top: 122px;
+    padding-bottom: 122px;
+
+}
+.white{
+    color: white;
+    margin: 1%;
+    font-size: 3rem;
+    font-family: bonny;
+}
+
+.star{
+    justify-content: center;
+    gap: 1rem;
+}
+.about{
+    text-align: center;
+    margin-top: 10rem;
+}
+.foot1{
+    background-color: #FF6B00;
+    text-align: center;
+    margin-top: 5%;
+}
+.foot-img{
+    margin-top: -39px;
+}
+.foot-btn{
+    font-family: bonny;
+    border: 0;
+    width: 215px;
+    height: 43px;
+    border-radius: 1.5rem;
+    color: #FF6B00;
+    background-color: white;
+    margin-bottom: 1%;
+    font-size: 1.5rem;
+}
+.bubble{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+.col{
+    color: #FF6B00;
+    font-family: bonny;
+}
+.baking{
+    font-size: 1.3rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+/* .spot_images::before{
+    content: " ";
+    position: absolute;
+    z-index: -2;
+    height: 24.25rem;
+    width: 19.375rem;
+    background: #FF6B00;
+    color: #FF6B00;
+    border-radius: 50px;
+    transform: rotate(-6.52deg);
+    box-shadow: 0rem 0rem 13.25rem -3.957rem #FF6B00
+} */
+.get{
+    text-align: center;
+    text-transform: uppercase;
+}
+#new {
+    position: absolute;
+    left: 0;
+    top: 95%;
+    line-height: 2;
+    padding: 1rem;
+    margin-left: -15px;
+    background-color: #fff;
+    display: none;
+}
+.jav{
+    display: block !important;
+}
+#new ul {
+    list-style: none;
+
+}
+#new ul li a{
+    transition: .3s;
+    
+}
+#new ul li a:hover{
+    color: #FF6B00;
+}
+.qof{
+    margin: 6%;
+}
+.textmail{
+    display: flex;
+    width: 100%;
+    padding: 9px;
+    border: 2px solid orange;
+    border-radius: 20px;
+}
+.mail{
+    border: 0px solid;
+    height: 26px;
+    outline: none;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.foot{
+    margin-top: 5%;
+    line-height: 190%;
+    text-align: center;
+}
+.foot li{
+    list-style: none;
+}
+.foot a{
+    text-decoration: none;
+    color: black;
+}
